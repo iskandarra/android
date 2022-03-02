@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/te1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama  :"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nama"
+            android:layout_marginLeft="15dp"
+            android:width="200dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/asal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asal Sekolah :"
+        android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Asal "
+            android:layout_marginLeft="15dp"
+            android:width="200dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/umur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Umur  :"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/umurr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Umur "
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:width="200dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/badan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan :"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/beratt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="berat badan "
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:width="200dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tiggii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/badans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tinggi Badan :"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="berat badan "
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:width="200dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hitung"
+            android:background="@color/purple_200"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/berat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+   <TextView
+       android:id="@+id/berat_badan"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Hasil Perhitungan Berat Badan"
+       android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/garis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:textSize="26sp"/>
+    </LinearLayout>
+
+</LinearLayout>
